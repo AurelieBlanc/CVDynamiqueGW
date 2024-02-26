@@ -1,0 +1,20 @@
+@use '@scssVariables' as v;
+
+.app {
+    
+    background-color: black; 
+    color: white; 
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+}
+
+.center {
+    padding-top: 0.8rem; 
+    height: 100%;  
+    display: flex; 
+    justify-content:space-around;  
+}
+
+.false {
+    display: none; 
+}

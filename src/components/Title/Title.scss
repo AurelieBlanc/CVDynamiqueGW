@@ -1,0 +1,32 @@
+@use '@scssVariables' as v;
+
+.title {
+    height: 10rem; 
+    color: color;
+    display: flex; 
+    align-items:flex-start; 
+    margin-top: -32px; 
+    border-bottom: v.$light-color 1px solid; 
+    
+   
+    
+    &_hight{
+        font-size:5rem; 
+    }
+
+    &_low{
+        font-size:8.5rem; 
+        margin-left: 10rem; 
+        margin-top: 1rem; 
+        
+    }
+}
+
+.letterGreenW {
+    color: v.$dark-color; 
+}
+
+.letterGreenO {
+    color: v.$light-color;   
+}
+

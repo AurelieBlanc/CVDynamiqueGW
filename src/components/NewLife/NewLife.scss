@@ -1,0 +1,50 @@
+@use '@scssVariables' as v;
+
+.newLife {
+    width: 90%; 
+    margin: auto; 
+    
+
+    &_button{
+        margin-top: 10px; 
+        width: 100px; 
+        height: 25px; 
+        border: 2px solid white; 
+        text-align:center; 
+        border-radius: 10px; 
+    }
+
+    &_text {
+        padding-top: 10px; 
+    }
+
+}
+
+.expPro {
+    display: flex; 
+}; 
+
+.column1 {
+    width: 80%; 
+    margin: 4rem; 
+}
+
+.column2 {
+    width: 80%; 
+    margin: 4rem; 
+}
+
+.years {
+ color: v.$light-color; 
+ font-size: 1.5rem; 
+ 
+}
+
+.expPro_ul {
+    margin-bottom: 2rem;
+    list-style-type: disc; 
+}
+
+.expPro_h2 {
+    width: 70%; 
+}
