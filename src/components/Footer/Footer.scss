@@ -1,10 +1,43 @@
 @use '@scssVariables' as v;
 
-.footer {
+
+
+
+@media screen and (max-width:399px) {
+    .footer {
     
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    height: 5rem; 
-    border: 1px solid v.$light-color; 
+        display: flex; 
+        align-items: center; 
+        // justify-content: center; 
+        height: 5rem; 
+        border: 1px solid v.$light-color; 
+        text-align:center; 
+        font-size: 0.8rem; 
+    }  
+}
+
+@media screen and (min-width:400px) and (max-width:999px) {
+    .footer {
+    
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        height: 5rem; 
+        border: 1px solid v.$light-color; 
+        text-align:center; 
+        font-size: 0.8rem; 
+    }  
+}
+
+@media screen and (min-width:1000px) {
+    .footer {
+    
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        height: 5rem; 
+        border: 1px solid v.$light-color; 
+        text-align:center; 
+        font-size: 1rem; 
+    }  
 }
