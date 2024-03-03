@@ -32,16 +32,16 @@ export default function NewLife () {
                     <ul className="expPro_ul">
                         <li><span className="years">Années: 2022 / 2023</span></li>
                         <li>Périple d'examens neupsychologiques</li>
-                        <li>Bagarre avec Pole Emploi pour un financement vers ma nouvelle vie</li>
+                        <li>Bagarre avec Pôle Emploi pour un financement vers ma nouvelle vie</li>
                         <li>Bataille gagnée</li>
-                        <li>Fomation developpement Web FullStack JS chez O-Clock</li>
+                        <li>Formation developpement Web FullStack JS chez O-Clock</li>
                     </ul> 
 
                 <h2 className="expPro_h2">Gérante et associée chez Pom&Cub, entreprise de textiles et d'objets de communication </h2>
                     <ul className="expPro_ul">
                         <li><span className="years">Années: 2017 à 2021</span></li>
                         <li>Gestion fournisseurs, Facturation clients</li>
-                        <li>Adminisatration des ventes</li>
+                        <li>Administration des ventes</li>
                         <li>Mise en place d'un ERP de gestion</li>
                         <li>Graphisme</li>
                     </ul> 
@@ -50,7 +50,7 @@ export default function NewLife () {
                     <ul className="expPro_ul">
                         <li><span className="years">Années: 2014 à 2017</span></li>
                         <li>Interlocutrice des commerciaux et des fournisseurs</li>
-                        <li>Responsable d'un site marchand pour un client grand compte: animation commerciale pour la mise en place d'achatbgroupé, newsletter, amelioration du site, interlocutrice clients mails ou appels entrants, assistance pour le site (mot de passe, passtion de commande, etc)</li>
+                        <li>Responsable d'un site marchand pour un client grand compte: animation commerciale pour la mise en place d'achat groupé, newsletters, amelioration du site, interlocutrice clients mails ou appels entrants, assistance pour le site (mot de passe, passation de commande, etc)</li>
                         <li>Sourcing, recherche de nouveaux fournisseurs</li>
                     </ul> 
 
@@ -74,7 +74,7 @@ export default function NewLife () {
                         <li><span className="years">Années: 2011 et 2012</span></li>
                         <li>Gestion des clients en B to C (clients particuliers)</li>
                         <li>Gestion des stocks informatiques</li>
-                        <li>Seconder le chef produit rayon escalade</li>
+                        <li>Seconder le chef produit du rayon escalade</li>
                         <li>Gestion du Service Après-vente</li>
                         <li>Gestion administrative</li>
                     </ul>
@@ -87,13 +87,7 @@ export default function NewLife () {
                     </ul> 
 
 
-                {/* <h2 className="expPro_h2">BTS MUC: Management des Unités Commerciales</h2>
-                    <ul className="expPro_ul">
-                        <li><span className="years">Années: 2007 / 2009</span></li>
-                        <li>en alternance chez Jeans Universe</li>
-                    </ul>  */}
-
-                
+                              
 
                 <h2 className="expPro_h2 years">FORMATIONS :</h2>
                     <ul className="expPro_ul">
