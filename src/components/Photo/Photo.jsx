@@ -1,4 +1,4 @@
-import './photo.scss'; 
+import './Photo.scss'; 
 
 export default function Photo() {
     return (
