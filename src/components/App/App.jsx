@@ -4,7 +4,8 @@ import Title from "../Title/Title";
 import Photo from "../Photo/Photo"; 
 import AboutMe from "../AboutMe/AboutMe"; 
 import Infos from '../Infos/Infos';
-import NewLife from '../NewLife/NewLife';
+import ExpPro from '../ExpPro/ExpPro'; 
+import Footer from '../Footer/Footer'; 
 
 
 
@@ -12,12 +13,15 @@ function App() {
   return <div className="app">
     <Banner/>
     <Title />
-    <div className="center">
-      <Photo />
-      <AboutMe />
-      <Infos />
-    </div>
-    <NewLife />
+      <div className="center">
+        <Photo />
+        <AboutMe />
+        <Infos />
+        
+      </div>
+      <ExpPro />
+      <Footer />
+   
     
   </div>;
 }

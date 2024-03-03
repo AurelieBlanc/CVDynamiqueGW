@@ -1,21 +1,66 @@
 @use '@scssVariables' as v;
 
+
+@media screen and  (max-width:1300px) {
+
+    .title {
+        height: 10rem; 
+        color: white;
+        text-align: center; 
+        // display: flex; 
+        // align-items:flex-start; 
+        // justify-content: center;
+        margin-top: -10px; 
+        border-bottom: v.$light-color 1px solid; 
+        // margin-bottom: 2rem; 
+        
+       
+        
+        &_hight{
+            font-size:3rem; 
+        }
+    
+        &_low{
+            font-size:4.5rem; 
+            // margin-left: 10rem; 
+            // margin-top: 1rem; 
+            
+        }
+    }
+    
+    .letterGreenW {
+        color: v.$dark-color; 
+    }
+    
+    .letterGreenO {
+        color: v.$light-color;   
+    }
+    
+
+}
+
+
+ 
+@media screen and (min-width:1301px) {
+
 .title {
     height: 10rem; 
     color: color;
     display: flex; 
     align-items:flex-start; 
-    margin-top: -32px; 
+    justify-content: center;
+    margin-top: -40px; 
     border-bottom: v.$light-color 1px solid; 
+    margin-bottom: 2rem; 
     
    
     
     &_hight{
-        font-size:5rem; 
+        font-size:6rem; 
     }
 
     &_low{
-        font-size:8.5rem; 
+        font-size:9rem; 
         margin-left: 10rem; 
         margin-top: 1rem; 
         
@@ -30,3 +75,4 @@
     color: v.$light-color;   
 }
 
+}

@@ -7,11 +7,14 @@
 
     &_button{
         margin-top: 10px; 
-        width: 100px; 
-        height: 25px; 
+        width: 150px; 
+        height: 55px; 
         border: 2px solid white; 
         text-align:center; 
         border-radius: 10px; 
+        background-color: v.$dark-color; 
+        margin-bottom: 2rem; 
+
     }
 
     &_text {
@@ -22,6 +25,7 @@
 
 .expPro {
     display: flex; 
+    
 }; 
 
 .column1 {
@@ -47,4 +51,10 @@
 
 .expPro_h2 {
     width: 70%; 
+    font-size: 1.7rem; 
+    text-decoration: underline; 
+}
+
+.false {
+    display: none; 
 }

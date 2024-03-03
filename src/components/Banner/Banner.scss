@@ -1,3 +1,6 @@
+@media screen and (max-width: 600px) {
+
+  
 .banner {
     height: 10rem; 
     display: flex; 
@@ -15,6 +18,70 @@
     border-radius: 20px; 
     text-align:center; 
     margin-right: 20px; 
+}
+
+.feather {
+    margin-left: 0.6rem; 
+}
+
+.un {
+    background-image: url("/images/lightleaves.jpeg");
+    
+}
+
+.un::after {
+    content: 'La Terre'; 
+    font-size: 4rem; 
+}
+
+.deux{
+    background-image: url("/images/caladium.jpeg");
+}
+
+.deux::after{
+    content:"La Nature";
+    font-size: 4rem; 
+}
+
+.trois{
+    background-image: url("/images/arbres.jpg");
+    background-position:center; 
+}
+
+.trois::after {
+    content:"Le vivant"; 
+    font-size: 4rem; 
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+.banner {
+    height: 10rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+   
+};
+
+.bannerButton {
+    background-color:rgb(13, 79, 43); 
+    color: white; 
+    border: white 2px solid; 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 20px; 
+    text-align:center; 
+    margin-right: 20px; 
+}
+
+.feather {
+    margin-left: 0.6rem; 
 }
 
 .un {
@@ -48,5 +115,5 @@
 
 
 
-
+}
 

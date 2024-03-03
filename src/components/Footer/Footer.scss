@@ -1,0 +1,10 @@
+@use '@scssVariables' as v;
+
+.footer {
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 5rem; 
+    border: 1px solid v.$light-color; 
+}

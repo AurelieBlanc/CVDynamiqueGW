@@ -2,7 +2,7 @@ import './Banner.scss';
 import { IonIcon } from '@ionic/react';
 import { useDispatch, useSelector } from "react-redux"; 
 import { updateBannerImage } from "../../store/dynamicSlice"
-
+import { Feather } from 'feather-icons-react'; 
 
 
 export default function Banner() {
@@ -37,7 +37,8 @@ export default function Banner() {
         <div className={`banner ${stateBanner}`} >
             
          <button className="bannerButton" onClick={bannerChange} value={stateBanner}>
-            <img src="/images/feather.svg" alt="" />
+            {/* <img src="/images/feather.svg" alt="" /> */}
+            <Feather className="feather" />
         </button>   
         
             

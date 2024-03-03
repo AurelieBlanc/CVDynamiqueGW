@@ -4,7 +4,7 @@ export default function Photo() {
     return (
         <div className="photo">
             <p>La bestiole</p>
-            <img width="300px" src="/images/photoProfil.jpg" alt="" />
+            <img className="imgPhoto" src="/images/photoProfil.jpg" alt="" />
         </div>
     )
 }

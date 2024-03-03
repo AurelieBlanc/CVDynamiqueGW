@@ -5,6 +5,7 @@ export const initialState = {
     monAncienneVie: false, 
     maNouvelleVie: false, 
     mesConvictions: false, 
+    experiencesPro: false, 
 }
 
 const dynamicSlice = createSlice({
@@ -37,10 +38,18 @@ const dynamicSlice = createSlice({
             }
         }, 
 
+        updateExperiencesProButton: (state, action) => {
+            return {
+                ...state, 
+                experiencesPro: action.payload
+
+            }
+        }
+
 
     }
 }); 
 
-export const { updateBannerImage, updateMonAncienneVieButton, updateMaNouvelleVieButton, updateMesConvictionsButton } = dynamicSlice.actions; 
+export const { updateBannerImage, updateMonAncienneVieButton, updateMaNouvelleVieButton, updateMesConvictionsButton, updateExperiencesProButton } = dynamicSlice.actions; 
 
 export default dynamicSlice.reducer; 

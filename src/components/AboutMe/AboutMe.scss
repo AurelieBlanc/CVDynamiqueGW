@@ -1,12 +1,46 @@
 @use '@scssVariables' as v;
 
+@media screen and (max-width:1000px) {
+
+    .aboutMe {
+        width: 35rem; 
+        padding-top: 2rem; 
+        margin: auto; 
+        padding-bottom: 2rem; 
+        
+    }
+    
+    p {
+        font-size: 1rem; 
+    }
+    
+    .buttonAboutMe {
+        width: 180px; 
+        height: 30px; 
+        border: 2px solid white; 
+        font-size: 1.3rem; 
+        border-radius: 10px; 
+        background-color: v.$dark-color;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.5rem; 
+        margin-top: 1rem; 
+    }
+    
+    .aboutMeP {
+        margin-bottom: 1.5rem; 
+    }
+}
+
+
 .aboutMe {
-    width: 300px; 
+    width: 35rem; 
     padding-top: 2rem; 
 }
 
 p {
-    font-size: 10px; 
+    font-size: 1rem; 
 }
 
 .buttonAboutMe {
