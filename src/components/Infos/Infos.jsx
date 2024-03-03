@@ -23,6 +23,7 @@ export default function Infos () {
             <li>Consciencieuse</li>
             <li>Impliquée</li>
             <li>Déterminée</li>
+            <li>Persévérante</li>
             <li>Ambitieuse</li>
            </ul>
         </div>

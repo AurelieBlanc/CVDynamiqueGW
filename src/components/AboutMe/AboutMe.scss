@@ -1,18 +1,48 @@
 @use '@scssVariables' as v;
 
-@media screen and (max-width:1000px) {
 
+@media screen and (max-width: 599px) {
     .aboutMe {
-        width: 35rem; 
-        padding-top: 2rem; 
+        width: 100%; 
+        padding-left: 0.5rem; 
         margin: auto; 
         padding-bottom: 2rem; 
         
     }
     
-    p {
+    
+    .buttonAboutMe {
+        width: 180px; 
+        height: 30px; 
+        border: 2px solid white; 
+        font-size: 1.3rem; 
+        border-radius: 10px; 
+        background-color: v.$dark-color;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.5rem; 
+        margin-top: 1rem; 
+    }
+    
+    .aboutMeP {
+        margin: 1.5rem; 
         font-size: 1rem; 
     }
+}
+
+
+@media screen and (min-width:600px) {
+
+    .aboutMe {
+        width: 35rem; 
+        // padding-top: 2rem; 
+        margin: 0 auto; 
+        padding-top: 1.7rem; 
+        padding-bottom: 2rem; 
+        
+    }
+    
     
     .buttonAboutMe {
         width: 180px; 
@@ -30,33 +60,34 @@
     
     .aboutMeP {
         margin-bottom: 1.5rem; 
+        font-size: 1.5rem; 
     }
 }
 
 
-.aboutMe {
-    width: 35rem; 
-    padding-top: 2rem; 
-}
+// .aboutMe {
+//     width: 35rem; 
+//     padding-top: 2rem; 
+// }
 
-p {
-    font-size: 1rem; 
-}
+// p {
+//     font-size: 1rem; 
+// }
 
-.buttonAboutMe {
-    width: 180px; 
-    height: 30px; 
-    border: 2px solid white; 
-    font-size: 1.3rem; 
-    border-radius: 10px; 
-    background-color: v.$dark-color;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.5rem; 
-    margin-top: 1rem; 
-}
+// .buttonAboutMe {
+//     width: 180px; 
+//     height: 30px; 
+//     border: 2px solid white; 
+//     font-size: 1.3rem; 
+//     border-radius: 10px; 
+//     background-color: v.$dark-color;
+//     display: flex; 
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 0.5rem; 
+//     margin-top: 1rem; 
+// }
 
-.aboutMeP {
-    margin-bottom: 1.5rem; 
-}
+// .aboutMeP {
+//     margin-bottom: 1.5rem; 
+// }

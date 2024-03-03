@@ -1,6 +1,48 @@
+@media screen and (max-width: 600px) {
+    .photo {
+        padding-top: 2rem;
+        width: 45%;  
+    }
+    
+    p {
+        margin-left: 3rem; 
+    }
+    
+    .imgPhoto {
+        display: block; 
+        width: 96%; 
+        margin: auto; 
+        padding-bottom: 3rem; 
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 999px) {
+
+    .photo {
+        padding-top: 2rem;
+        width: 30%;  
+    }
+    
+    p {
+        margin-left: 3rem; 
+    }
+    
+    .imgPhoto {
+        display: block; 
+        width: 96%; 
+        margin: auto; 
+        padding-bottom: 3rem; 
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
 .photo {
     padding-top: 2rem;
-    width: 30%;  
+    width: 20%;  
+    margin: 0 auto; 
 }
 
 p {
@@ -12,4 +54,5 @@ p {
     width: 86%; 
     margin: auto; 
     padding-bottom: 3rem; 
+}
 }

@@ -1,5 +1,21 @@
 @use '@scssVariables' as v;
 
+@media screen and (max-width:999px){
+    .infos {
+        padding: 2rem; 
+        width: 90%; 
+        margin: auto; 
+        border: 2px solid v.$light-color;  
+        border-radius: 10px; 
+        
+    }
+    
+    .greenLi {
+        color: v.$light-color; 
+}
+}
+
+@media screen and (min-width:1000px) {
 .infos {
     padding: 2rem; 
     width: 30rem; 
@@ -9,5 +25,7 @@
 }
 
 .greenLi {
-    color: green; 
+    color: v.$light-color; 
+}
+
 }

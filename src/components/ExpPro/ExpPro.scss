@@ -1,5 +1,70 @@
 @use '@scssVariables' as v;
 
+
+@media screen and (max-width:1000px) {
+    .newLife {
+        width: 90%; 
+        margin: auto; 
+        
+    
+        &_button{
+            margin-top: 2rem; 
+            width: 150px; 
+            height: 55px; 
+            border: 2px solid white; 
+            text-align:center; 
+            border-radius: 10px; 
+            background-color: v.$dark-color; 
+            margin-bottom: 2rem; 
+    
+        }
+    
+        &_text {
+            padding-top: 10px; 
+        }
+    
+    }
+    
+    .expPro {
+        display: flex; 
+        flex-direction: column; 
+      
+    }; 
+    
+    .column1 {
+        width: 80%;
+        margin: 0 2rem; 
+    }
+    
+    .column2 {
+        width: 80%; 
+        margin: 0 2rem; 
+    }
+    
+    .years {
+     color: v.$light-color; 
+     font-size: 1.3rem; 
+     
+    }
+    
+    .expPro_ul {
+        margin-bottom: 2rem;
+        list-style-type: disc; 
+        font-size: 1rem; 
+    }
+    
+    .expPro_h2 {
+        width: 70%; 
+        font-size: 1.5rem; 
+        text-decoration: underline; 
+    }
+    
+    .false {
+        display: none; 
+    }
+}
+
+ @media screen and (min-width:1000px) {
 .newLife {
     width: 90%; 
     margin: auto; 
@@ -57,4 +122,6 @@
 
 .false {
     display: none; 
+}
+
 }
