@@ -1,4 +1,4 @@
-import "./infos.scss"; 
+import "./Infos.scss"; 
 
 export default function Infos () {
     return (
